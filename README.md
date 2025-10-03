@@ -5,7 +5,7 @@ Misinformation spreads quickly through online news and social media, making it i
 
 🔗 Live Website: [Trisha-Bej](https://rebrand.ly/Trisha-Bej)  
 ➡️ On the site, you can learn about the project, and by clicking **“Launch App”**, you’ll be redirected to the Streamlit app for real-time news analysis. 
-![Scan to visit website](images/rebrand.ly.trisha-bej qr.png)
+![Scan to visit website](images/rebrand.ly.trisha-bej%20qr.png)
 
 
 ---
