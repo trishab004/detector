@@ -91,4 +91,4 @@ streamlit run app.py
 
 - Trisha Bej
 
-# ✨ Fake news spreads fast, but together we can stop it from spreading further.
+### ✨ Fake news spreads fast, but together we can stop it from spreading further.
