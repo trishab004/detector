@@ -90,3 +90,5 @@ streamlit run app.py
 ## Author
 
 - Trisha Bej
+
+# ✨ Fake news spreads fast, but together we can stop it from spreading further.
