@@ -1,73 +1,92 @@
-# Welcome to your Lovable project
+# Fake News Detector for Students
 
-## Project info
+Misinformation spreads quickly through online news and social media, making it increasingly difficult for students to differentiate between reliable and fake information.  
+**Fake News Detector for Students** is an AI-powered platform that helps learners analyze articles, assess credibility, and get concise, trustworthy summaries—empowering them to think critically and avoid falling for false narratives.  
 
-**URL**: https://lovable.dev/projects/682a04a7-86fb-477e-9ca1-cc11c2cd3636
+🔗 Live Website: [Trisha-Bej](https://rebrand.ly/Trisha-Bej)  
+➡️ On the site, you can learn about the project, and by clicking **“Launch App”**, you’ll be redirected to the Streamlit app for real-time news analysis.  
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## Project Structure
 
-**Use Lovable**
+This repo (`detector`) contains the **frontend website**, while the actual AI-based analysis runs from a separate backend repo:  
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/682a04a7-86fb-477e-9ca1-cc11c2cd3636) and start prompting.
+- Frontend (`detector`) → Simple website with project info + “Launch App” button  
+- Backend (`fake_news_detector_for_students`) → Streamlit app where students can input news articles and get analysis  
 
-Changes made via Lovable will be committed automatically to this repo.
+👉 Backend Repo: [fake_news_detector_for_students](https://github.com/trishab004/fake_news_detector_for_students)  
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## Features
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- Frontend Website:
+  - Clean landing page  
+  - Overview of the project  
+  - Redirect to the AI-powered news analysis tool  
 
-Follow these steps:
+- Streamlit App (Backend):
+  - Paste or upload news articles  
+  - AI model analyzes credibility and flags potential misinformation  
+  - Generates concise, trustworthy summaries for students  
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## Getting Started
 
-# Step 3: Install the necessary dependencies.
-npm i
+### 1. Clone the Repos
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+```bash
+# Frontend
+git clone https://github.com/trishab004/detector.git
+cd detector
+
+# Backend (Streamlit app)
+git clone https://github.com/trishab004/fake_news_detector_for_students.git
+cd fake_news_detector_for_students
 ```
 
-**Edit a file directly in GitHub**
+### 2. Run the Backend (Streamlit App)
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```
+# Inside fake_news_detector_for_students:
 
-**Use GitHub Codespaces**
+pip install -r requirements.txt
+streamlit run app.py
+```
+- The app will be available locally at http://localhost:8501/
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+### 3. Access the Frontend
 
-## What technologies are used for this project?
+- Open the link [Trisha-Bej](https://rebrand.ly/Trisha-Bej) from the detector repo .
+- Click “Launch App” → It will redirect to your hosted Streamlit app.
 
-This project is built with:
+ 
+## Tech Stack
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- Frontend: HTML, CSS, JavaScript
+- Backend: Python, Streamlit
+- AI/ML: NLP models for credibility analysis & summarization
 
-## How can I deploy this project?
+## Use Case
 
-Simply open [Lovable](https://lovable.dev/projects/682a04a7-86fb-477e-9ca1-cc11c2cd3636) and click on Share -> Publish.
+- This tool is built especially for students who rely on online news and resources. It helps them:
+- Verify the reliability of articles
+- Avoid misinformation traps
+- Get concise summaries for better learning and research
 
-## Can I connect a custom domain to my Lovable project?
+## Roadmap
 
-Yes, you can!
+- Improve ML model accuracy with larger datasets
+-  Add browser extension for quick credibility checks
+-  Support multilingual news articles
+-  Dashboard for tracking misinformation trends
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## Contributing
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+- Contributions are welcome! Feel free to fork the repos and submit pull requests.
+
+## Author
+
+- Trisha Bej
