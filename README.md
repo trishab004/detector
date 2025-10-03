@@ -4,7 +4,9 @@ Misinformation spreads quickly through online news and social media, making it i
 **Fake News Detector for Students** is an AI-powered platform that helps learners analyze articles, assess credibility, and get concise, trustworthy summaries—empowering them to think critically and avoid falling for false narratives.  
 
 🔗 Live Website: [Trisha-Bej](https://rebrand.ly/Trisha-Bej)  
-➡️ On the site, you can learn about the project, and by clicking **“Launch App”**, you’ll be redirected to the Streamlit app for real-time news analysis.  
+➡️ On the site, you can learn about the project, and by clicking **“Launch App”**, you’ll be redirected to the Streamlit app for real-time news analysis. 
+![Scan to visit website](images/rebrand.ly.trisha-bej qr.png)
+
 
 ---
 
