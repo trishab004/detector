@@ -7,7 +7,7 @@ Misinformation spreads quickly through online news and social media, making it i
 ➡️ On the site, you can learn about the project, and by clicking **“Launch App”**, you’ll be redirected to the Streamlit app for real-time news analysis. 
 
 
-<img src="images/website_qr.png" alt="Scan to visit website" width="100"/>
+<img src="images/website_qr.png" alt="Scan to visit website" width="500"/>
 
 
 ---
